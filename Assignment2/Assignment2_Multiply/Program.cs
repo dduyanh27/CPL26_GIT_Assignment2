@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assignment2_Calculator
+namespace Assignment2_Multiply
 {
     class Program
     {
