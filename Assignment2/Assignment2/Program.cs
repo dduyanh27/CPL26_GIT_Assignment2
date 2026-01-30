@@ -1,4 +1,3 @@
-﻿namespace Assignment2_Plus
 ﻿using System;
 
 namespace Assignment2_Plus
@@ -24,12 +23,12 @@ namespace Assignment2_Plus
         {
             switch (sign)
             {
-                case "PLUS": return arg1 + arg2;
-                case "MINUS": return arg1 - arg2;
-                case "MULTIPLY": return arg1 * arg2;
-                case "DIVIDE": return arg2 != 0 ? arg1 / arg2 : 0;
-                default: return 0;
+                case "PLUS":
+                    return arg1 + arg2;
+                default:
+                    return 0;
             }
+
         }
     }
 }
