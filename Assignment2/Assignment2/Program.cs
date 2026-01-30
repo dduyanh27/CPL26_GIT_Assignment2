@@ -17,7 +17,6 @@ namespace Assignment2_Plus
             Console.ReadKey();
         }
 
-        //ádasdasdadasdsa
 
         private static double Calculate(string sign, double arg1, double arg2)
         {
