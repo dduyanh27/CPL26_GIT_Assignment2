@@ -1,11 +1,13 @@
+﻿namespace Assignment2_Plus
 ﻿using System;
 
 namespace Assignment2_Plus
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
             Console.Write("Nhap so thu nhat (arg1): ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Nhap so thu hai (arg2): ");
