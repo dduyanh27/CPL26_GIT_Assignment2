@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+﻿
+using System;
+>>>>>>> 045a6d2 (implement multiply)
 
 namespace Assignment2_Plus
 {

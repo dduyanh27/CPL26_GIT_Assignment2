@@ -2,14 +2,16 @@
 
 namespace Assignment2_Multiply
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Nhap so thu nhat (arg1): ");
+            Console.Write("Nhap so thu nhat: ");
             double a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Nhap so thu hai (arg2): ");
+
+            Console.Write("Nhap so thu hai: ");
             double b = Convert.ToDouble(Console.ReadLine());
+
             double result = Calculate("MULTIPLY", a, b);
 
             Console.WriteLine($"Ket qua: {result}");
@@ -20,11 +22,10 @@ namespace Assignment2_Multiply
         {
             switch (sign)
             {
-                case "PLUS": return arg1 + arg2;
-                case "MINUS": return arg1 - arg2;
-                case "MULTIPLY": return arg1 * arg2;
-                case "DIVIDE": return arg2 != 0 ? arg1 / arg2 : 0;
-                default: return 0;
+                case "MULTIPLY":
+                    return arg1 * arg2;
+                default:
+                    return 0;
             }
         }
     }
