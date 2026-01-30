@@ -16,6 +16,8 @@ namespace Assignment2_Calculator
             Console.ReadKey();
         }
 
+        //123123
+
         private static double Calculate(string sign, double arg1, double arg2)
         {
             switch (sign)
