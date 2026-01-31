@@ -1,0 +1,5 @@
+case DIVIDE:
+    if (arg2 == 0) {
+        throw new ArithmeticException("Cannot divide by zero");
+    }
+    return arg1 / arg2;
