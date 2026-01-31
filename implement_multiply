@@ -1,0 +1,2 @@
+case MULTIPLY:
+    return arg1 * arg2;
